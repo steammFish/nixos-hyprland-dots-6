@@ -14,6 +14,8 @@ let
     {
 
       yazi = ./yazi_preset;
+      vscode-settings = ./settings.json;
+      # vscode-settings = lib.readFile ./settings.json;
 
       swappy =
         ''
@@ -105,6 +107,8 @@ in
     ".filebrowser.json".text = local.filebrowser;
     # ".config/yt-dlp/config".text = local.yt-dlp;
     # ".config/swappy/config".text = local.swappy;
+    ".config/Code/User/settings.json".source = local.vscode-settings;
+    
 
   };
 

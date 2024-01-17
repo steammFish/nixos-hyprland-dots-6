@@ -61,7 +61,7 @@ _installSymLink swaylock ~/.config/swaylock ~/dotfiles/swaylock/ ~/.config
 _installSymLink wlogout ~/.config/wlogout ~/dotfiles/wlogout/ ~/.config
 
 ## custom
-_installSymLink Code ~/.config/Code ~/dotfiles/Code/ ~/.config
+# _installSymLink Code ~/.config/Code ~/dotfiles/Code/ ~/.config
 _installSymLink fcitx5 ~/.config/fcitx5 ~/dotfiles/fcitx5/ ~/.config
 _installSymLink Thunar ~/.config/Thunar ~/dotfiles/Thunar/ ~/.config
 _installSymLink spicetify ~/.config/spicetify ~/dotfiles/spicetify/ ~/.config
