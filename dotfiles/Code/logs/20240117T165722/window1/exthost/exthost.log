@@ -1,0 +1,84 @@
+2024-01-17 16:57:23.069 [info] Extension host with pid 27429 started
+2024-01-17 16:57:23.069 [info] Skipping acquiring lock for /home/ck/.config/Code/User/workspaceStorage/bc80bde36bc9234cf358624d0b5ce680.
+2024-01-17 16:57:23.087 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-17 16:57:23.089 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-17 16:57:23.099 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-17 16:57:23.164 [info] Eager extensions activated
+2024-01-17 16:57:23.190 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-17 16:57:23.192 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-17 16:57:23.197 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-01-17 16:57:26.040 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-01-17 16:57:30.404 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-17 16:57:31.284 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2024-01-17 16:59:07.602 [info] Extension host terminating: renderer closed the MessagePort
+2024-01-17 16:59:07.607 [error] Canceled: Canceled
+	at new g (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/extensions/git/dist/main.js:2:924696)
+	at n.y (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/extensions/git/dist/main.js:2:940613)
+	at /nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-17 16:59:07.608 [error] Canceled: Canceled
+	at new g (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at set b [as b] (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/extensions/github/dist/extension.js:2:322364)
+	at /nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/extensions/github/dist/extension.js:2:323005
+	at f.value (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/extensions/git/dist/main.js:2:1016450)
+	at n.y (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/extensions/git/dist/main.js:2:940613)
+	at /nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/nix/store/5h69nf2zhbmly4kims40wd22lfsgz2w9-vscode-1.85.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-17 16:59:07.608 [info] Extension host with pid 27429 exiting with code 0
